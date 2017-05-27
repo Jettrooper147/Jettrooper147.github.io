@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
 * {
-    box-sizing: border-box;    /* changes width property to total width instead of content width */
+    box-sizing: border-box;
 
+    font-family: Helvetica;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Sansita, "second choice", generic-family;
+}
 article,
 aside,
 footer,
@@ -12,14 +22,14 @@ section,
 main,
 figcaption,
 figure {
-    display: block;   /* just in case we have any older browsers that don't recognize the HTML5 semantic elements */
+    display: block;
+
 }
 
 body {
-    margin: 0;  /* remove any margin from body to avoid unsightly gaps. */
-    padding: 0;  /* ditto for padding  */
-    background-color: salmon;
-    padding-bottom: 100px;
+    margin: 0;
+
+    padding: 0;
 
 }
 
@@ -27,41 +37,183 @@ main {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-}
 
-nav ul {
-    display: flex;
-    line-height: 20px;
-}
-
-ul li {
-    list-style: none;
-    padding: .5em;
 }
 
 nav {
+    display: flex;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    background-color: #F07C6C;
+    border-top: 1px solid grey;
+    font-size: 13px;
+}
+
+.nav-bar-link {
+    text-decoration: none;
+    color: #4A4653;
+}
+#nav-links li a:visited {
+    color: #4A4653;
+}
+#nav-links li a:hover {
+    color: #E7EF61;
+}
+#nav-links li a:active{
+    color: #A6D8DB;
+}
+#nav-links {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+#nav-links li {
+    display: inline;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #A6D8DB;
+    width: 100%;
 
 }
 
-.title h1 + h1 {
-    text-align: right;
-    margin-top: -.7em;
+#local-weather {
+    float: right;
+    font-weight: 100;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 1.7em;
 }
 
-.hourly {
-    margin: 0;
+#logo {
+    margin: 0px;
+}
+
+#dice {
+    font-size: 1.6em;
     padding: 0;
-    display: none;
+    margin: 0;
+    font-weight: 500;
+
+}
+#rotated-die {
+    transform: rotate(25deg);
+    display: inline-block;
+    font-size: 1.6em;
+}
+#title {
+    width: 100%;
+    padding-right: 3%;
+    font-size: 1em;
 }
 
-.weatherimage, .forcastimages, .backgroundimage, .locationimage {
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+#localWeather {
+    justify-content: center;
+    padding-bottom: 5%;
+    background-image: url(https://byui-cit.github.io/cit230/images/sunny-winter.jpg);
+    background-size: cover;
+}
+#temperature {
+    border: 1px solid;
+    text-align: center;
+    width: 130px;
+    margin: auto;
+    margin-bottom: 2%;
+    background-color: rgba(200,200,200,.6);
+}
+
+#sun {
+    margin: 10%;
+    font-size: 1.5em;
+}
+
+#temp {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#temperature h2 {
+    font-size: 2.5em;
+    margin-top: 15px;
+}
+
+#city-name {
+    font-size: 1.2em;
+    margin: auto;
+    width: 50%;
+    padding: 2% 6%;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: rgba(200,200,200,.6);
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+#currentConditions dl {
+
+}
+
+#currentConditions {
+    border: 1px solid;
+    border-radius: 15px;
+    width: 70%;
+    padding: 0% 5% 0% 5%;
+    font-size: 1em;
+    background-color: rgba(200,200,200,.6);
+    margin: auto;
+}
+#weather {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 10px
+}
+#wind {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    padding-right: 3%;
+
+}
+#currentConditions h2 {
+    font-size: 1.75em;
+    text-align: center
+}
+#currentConditions span{
+    font-size: 1.7em;
+}
+.hidden {
     display: none;
 }
 
 footer {
-    margin: 0;
-    padding: 0; }
+    background-color: #A6D8DB;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1em;
+    padding: 2% 10% 2% 0%;
+    margin-bottom: 15%;
+}
+
+#copyright {
+    float: left;
+    padding-right: 2%
+}
