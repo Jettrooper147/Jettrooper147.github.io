@@ -1,0 +1,30 @@
+.body-font {
+    font-family: Helvetica, Arial, sans-serif;
+}
+    .head-font {
+        font-family: Verdana, Arial, sans-serif;
+}
+.colors {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.color-swatch {
+    border: 1px solid;
+    border-radius: 10px;
+    flex: 0 1 25%;
+}
+.color-swatch__color {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px 10px 0 0;
+}
+.color-swatch__primary {
+    background-color: #A6D8DB;
+}
+.color-swatch__secondary {
+    background-color: #F07C6C;
+}
+.color-swatch__description {
+    padding: .5em;
+}
