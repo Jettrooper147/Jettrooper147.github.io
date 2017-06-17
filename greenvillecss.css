@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Verdana');
+* {
+    box-sizing: border-box;
+    /* changes width property to total width instead of content width */
+    font-family: Helvetica;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Verdana, "second choice", generic-family;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main,
+figcaption,
+figure {
+    display: block;
+    /* just in case we have any older browsers that don't recognize the HTML5 semantic elements */
+}
+
+body {
+    margin: 0;
+    /* remove any margin from body to avoid unsightly gaps. */
+    padding: 0;
+    /* ditto for padding  */
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #A9A9A9;
+    border-top: 1px solid grey;
+    font-size: 13px;
+
+}
+
+.nav-bar-link {
+    text-decoration: none;
+    color: #4A4653;
+}
+#nav-links li a:visited {
+    color: #4A4653;
+}
+#nav-links li a:hover {
+    color: #E7EF61;
+}
+#nav-links li a:active{
+    color: #A6D8DB;
+}
+#nav-links {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+#nav-links li {
+    display: inline;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #006400;
+    width: 100%;
+
+}
+
+#local {
+    float: right;
+    font-weight: 100;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 1.7em;
+}
+
+#logo {
+    margin: 0px;
+}
+
+#dice {
+    font-size: 1.6em;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    margin-right: -1.7%
+}
+#rotated-die {
+    transform: rotate(25deg);
+    display: inline-block;
+    font-size: 1.6em;
+}
+#title {
+    width: 100%;
+    padding-right: 3%;
+    font-size: .8em;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+#localWeather {
+    padding-bottom: 1%;
+    display:flex;
+    flex-flow: row;
+    align-content: space-between;
+    background-color: aqua
+
+}
+#temperature {
+    border: 1px solid;
+    text-align: center;
+    width: 130px;
+    margin-bottom: 2%;
+    background-color: rgba(200,200,200,.6);
+}
+#sunny {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0% 3%;
+    width: 35%;
+    background-color: rgba(200,200,200,.6);
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10%
+}
+
+#sun {
+    margin: 10%;
+    font-size: 1.5em;
+}
+
+#temp {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#temperature h2 {
+    font-size: 2.5em;
+    margin-top: 15px;
+}
+
+#city-name {
+    font-size: 1.2em;
+    width: 100%;
+    padding: 2% 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#currentConditions {
+    border: 1px solid;
+    border-radius: 15px;
+    width: 90%;
+    padding: 0% 5% 0% 5%;
+    font-size: 1em;
+    background-color: rgba(200,200,200,.6);
+    margin: auto;
+    margin-bottom: 2%;
+    display: flex;
+    flex-flow: row;
+
+}
+#weather {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 10px
+
+}
+#wind {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    padding-right: 3%;
+
+
+}
+#actual {
+    min-height: 60%;
+    display: flex;
+    flex-flow: column;
+
+
+}
+#currentConditions h2 {
+    font-size: 1.75em;
+    text-align: center;
+
+}
+#currentConditions span{
+    font-size: 1.7em;
+}
+.hidden {
+    display: none;
+}
+#hourly{
+    width: 34%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 25%;
+    overflow: hidden;
+    max-height: 400px;
+    flex-direction: row;
+    flex-flow: nowrap
+
+}
+footer {
+    background-color: #006400;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: row;
+    font-size: 1em;
+    padding: 2% 10% 2% 5%;
+    margin-bottom: 15%;
+}
+
+#copyright {
+    float: left;
+    padding-right: 2%
+}
+@media screen and (min-width: 36em) {
+    body {
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+    }
+    #title {
+        width: 20em;
+    }
+    nav {
+        position: static;
+        font-size: 1.25em;
+    }
+    .nav-bar-link{
+        padding: 0% 2%
+    }
+    main {
+        flex-flow: row wrap;
+        background: gray
+    }
+    .hidden {
+        display: initial;
+    }
+    #localWeather {
+        background-size: cover;
+        width: 600%;
+        justify-content: space-around;
+        padding-bottom: 25%;
+        max-height: 200px;
+    }
+    #city-name{
+        width: 75%
+    }
+    #temperature {
+        width: 65%;
+        margin: 0
+    }
+    #currentConditions {
+        width: 50%;
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        background-color: initial;
+        min-height: 400px;
+        order: -1;
+    }
+    #currentConditions h2{
+        font-size: 150%;
+        width: 120%;
+    }
+    #weather{
+        display: flex;
+        align-items: flex-end;
+        width: 120%;
+    }
+    #wind{
+        font-weight: 700;
+        height: 30%;
+    }
+    #wind span:first-child{
+        padding:0;
+        padding-bottom: 15%;
+        padding-right:10%;
+    }
+    #wind span{
+        padding-top: 15%;
+        padding-right: 10%;
+        align-items: flex-end;
+    }
+    #actual span{
+        padding-top: 10%;
+    }
+
+    #hourly ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    footer{
+        font-size: 1.25em
+    }
+
+}
+@media (min-width: 36em) and (max-width: 46em){
+    #weather {
+        font-size: 0.45em;
+    }
+    nav{
+        font-size: 1.15em;
+    }
+    #localWeather{
+        height: 25em
+    }
+}
+@media (max-width: 56.5em) and (min-width: 46em){
+    #weather{
+        font-size: 0.5em;
+    }
+    nav{
+        font-size: 1.15em;
+    }
+}
+@media (max-width: 41em) and (min-width: 36em){
+    #weather{
+        font-size: 0.35em
+    }
+    nav{
+        font-size: 1.0em;
+    }
+}
