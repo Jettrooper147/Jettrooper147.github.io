@@ -1,0 +1,51 @@
+nav {
+    background-color: #FF8C00;
+    border-top: 1px solid grey;
+    font-size: 25px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+
+.nav-bar-link {
+    text-decoration: none;
+    color: #87CEFA;
+}
+#nav-links li a:visited {
+    color: #FF00FF;
+}
+#nav-links li a:hover {
+    color: Black;
+}
+#nav-links li a:active{
+    color: #FF8C00;
+}
+#nav-links {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+#nav-links li {
+    display: inline;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #FF8C00;
+    width: 100%;
+
+}
+
+footer {
+    background-color: #FF8C00;
+}
+
+@media screen and (min-width: 550px){
+    header section{
+        font-size: 1.4em
+    }
