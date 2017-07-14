@@ -15,6 +15,7 @@ function getCharacter() {
 
 
         var characterListElement = document.getElementById('characterlist');
+
         characterListElement.innerHTML = "";
         data.characters.forEach(function(character){
             var listItem = document.createElement('li');
@@ -24,7 +25,6 @@ function getCharacter() {
             link.addEventListener('click',function(event){
                 event.preventDefault();
                 getCharacterDetails(character.url);
-                document.getElementById('image').innerHTML = character.image;
                 document.getElementById('realname').innerHTML = character.realname;
                 document.getElementById('codename').innerHTML = character.codename;
                 document.getElementById('class').innerHTML = character.class;
