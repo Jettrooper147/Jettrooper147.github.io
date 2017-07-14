@@ -81,11 +81,11 @@ footer {
 }
 @media (min-width: 36em) and (max-width: 46em){
 
+}
     nav{
         font-size: 1.15em;
     }
 
-}
 @media (max-width: 56.5em) and (min-width: 46em){
 
     nav{
