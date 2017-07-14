@@ -1,0 +1,229 @@
+{
+    "characters": [
+        {
+            "image": "character-images/doomfist.png",
+            "realname": "Akande Ogundimu",
+            "codename": "Doomfist",
+            "class": "Offense",
+            "origin": "Nigeria",
+            "bio": "Recently freed from imprisonment by the members of Talon, Doomfist is determined to plunge the world into a new conflict that he believes will make humanity stronger."
+
+        },
+        {
+        "image": "character-images/genji.png",
+        "realname": "Genji Shimada",
+        "codename": "Genji",
+        "class": "Offense",
+        "origin": "Nepal",
+        "bio": "The ninja Genji was nearly killed by his brother Hanzo. After being rescued by Dr. Ziegler and had his body recreated with cybernetic parts, he helped Overwatch with a mission they needed his assistance on, and now wanders the world searching for meaning as a cyborg ninja."
+
+        },
+        {
+        "image": "character-images/mccree.jpg",
+        "realname": "Jesse McCree",
+        "codename": "McCree",
+        "class": "Offense",
+        "origin": "New Mexico",
+        "bio": "After being busted for weapon trafficking, McCree was given the choice to rot in jail, or join Blackwatch; Overwatch's covert ops division. Now a member of Blackwatch, the outlaw McCree, armed with his Peacekeeper revolver, doles out justice onhis own terms."
+
+        },
+        {
+        "image": "character-images/pharah.jpg",
+        "realname": "Fareeha Amari",
+        "codename": "Pharah",
+        "class": "Offense",
+        "origin": "Egypt",
+        "bio": "Pharah's commitment to her duty runs in her blood. She comes from a long line of highly decorated soldiers, one being her mother Ana, and burns with the desire to serve with honor."
+
+        },
+        {
+        "image": "character-images/reaper.jpg",
+        "realname": "Unknown",
+        "codename": "Reaper",
+        "class": "Offense",
+        "origin": "Unknown",
+        "bio": "Some speak of a black-robed terrorist known only as the Reaper. His identity and motives are a mystery. What is known is that where he appears, death follows."
+
+        },
+        {
+        "image": "character-images/soldier.jpg",
+        "realname": "Unknown",
+        "codename": "Soldier 76",
+        "class": "Offense",
+        "origin": "Unknown",
+        "bio": "Currently the target of an international manhunt, the vigilante known as Soldier: 76 wages a personal war to expose the truth behind Overwatch's collapse."
+
+        },
+        {
+        "image": "character-images/sombra.jpg",
+        "realname": "Unknown",
+        "codename": "Sombra",
+        "class": "Offense",
+        "origin": "Mexico",
+        "bio": "One of the world's most notorious hackers, Sombra uses information to manipulate those in power. Currently believed to be working for Talon, she has been known to work with the terrorists known as Reaper and Widowmaker to achieve her goals."
+
+        },
+        {
+        "image": "character-images/tracer.jpg",
+        "realname": "Lena Oxton",
+        "codename": "Tracer",
+        "class": "Offense",
+        "origin": "England",
+        "bio": "The former Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible force for good."
+
+        },
+        {
+        "image": "character-images/bastion.jpg",
+        "realname": "SST Laboratories Siege Automaton E54",
+        "codename": "Bastion",
+        "class": "Defense",
+        "origin": "Unknown",
+        "bio": "Once a frontline combatant in the devastating Omnic Crisis, this curious Bastion unit now explores the world, fascinated by nature but wary of a fearful humanity."
+
+        },
+        {
+        "image": "character-images/hanzo.jpg",
+        "realname": "Hanzo Shimada",
+        "codename": "Hanzo",
+        "class": "Defense",
+        "origin": "Japan",
+        "bio": "Mastering his skills as a bowman and an assassin, Hanzo Shimada strives to prove himself as a warrior without peer. Upon the death of his father, the clan elders instructed Hanzo to straighten out his wayward younger brother Genji so that he, too, might help rule the Shimada empire. When his brother refused, Hanzo was forced to kill him. This broke his heart, and drove him to abandon the clan. Now, Hanzo travels the world, perfecting his skills as a warrior, attempting to restore his honor and put the ghosts of his past to rest."
+
+        },
+        {
+        "image": "character-images/junkrat.jpg",
+        "realname": "Jamison Fawkes",
+        "codename": "Junkrat",
+        "class": "Defense",
+        "origin": "Austrailia",
+            "bio": "Junkrat is an explosives-obsessed freak who lives to cause chaos and destruction. Going through the same situation as Roadhog in the apocalyptic wasteland of Austrailia, the both of them joined a cutthroat group calling themselves the Junkers during their time there. Now, with Roadhog in tow, Junkrat has left the Outback, and embarked upon an international crime spree leaving nothing but havoc and bedlam in his wake. "
+
+        },
+        {
+        "image": "character-images/mei.jpg",
+        "realname": "Mei-Ling Zhou",
+        "codename": "Mei",
+        "class": "Defense",
+        "origin": "China",
+        "bio": "Mei is a scientist who has taken the fight to preserve the environment into her own hands. While stationed in Antarctica for research, a catastrophic polar storm hit. As their last resort, Mei and the other reseachers went into cryostasis. Years later when the cryogenic chambers were finally discovered, Mei was the only survivor. Mei has now decided to continue her work on her own. Equipped with a portable version of her climate-manipulation technology, she travels around the world, hoping to re-establish the eco-network and track down the causes of the threats to the planet's ecosystem."
+
+        },
+        {
+        "image": "character-images/torb.jpg",
+        "realname": "Torbjorn Lindholm",
+        "codename": "Torbjorn",
+        "class": "Defense",
+        "origin": "Sweden",
+        "bio": "At its height, Overwatch possessed one of the most advanced armaments on the planet, which could be traced to the workshop of an ingenious engineer named Torbjörn Lindholm."
+
+        },
+        {
+        "image": "character-images/widow.jpg",
+        "realname": "Amelie Lacroix",
+        "codename": "Widowmaker",
+        "class": "Defense",
+        "origin": "France",
+        "bio": "Widowmaker is the perfect assassin: a patient, ruthlessly efficient killer who shows neither emotion nor remorse. She is renowned as Talon's most effective assassin."
+
+        },
+        {
+        "image": "character-images/dva.jpg",
+        "realname": "Hana Song",
+        "codename": "D.Va",
+        "class": "Tank",
+        "origin": "South Korea",
+        "bio": "D.Va is a former professional Starcraft 2 player, who now uses her gaming skills to pilot a high-tech mech developed by the military to defend her homeland."
+
+        },
+        {
+        "image": "character-images/orisa.jpg",
+        "realname": "Orisa",
+        "codename": "Orisa",
+        "class": "Tank",
+        "origin": "Created somewhere in Africa",
+        "bio": "Orisa is a guardian robot built from out of service OR-15 robots, created by a young scientist named Efi, to be the city of Numbani's newest protector."
+
+        },
+        {
+        "image": "character-images/rein.jpg",
+        "realname": "Reinhardt Wilhelm",
+        "codename": "Reinhardt",
+        "class": "Tank",
+        "origin": "Germany",
+        "bio": "Reinhardt is a champion of a bygone age, living by the knightly codes of valor, justice and courage. Faced with a mandatory retirement from combat in his late fifties, he now fights for justice across Europe, defending the innocent."
+
+        },
+        {
+        "image": "character-images/hog.jpg",
+        "realname": "Mako Rutledge",
+        "codename": "Roadhog",
+        "class": "Tank",
+        "origin": "Austrailia",
+        "bio": "After watching his home be torn apart by war and become an apocalyptic wasteland, Roadhog adapts to his environment, slowly losing his humanity. He is now a merciless killer with a reputation for cruelty and destruction, and often works with his partner in crime, Junkrat, to wreak havoc."
+
+        },
+        {
+        "image": "character-images/winston.jpg",
+        "realname": "Winston",
+        "codename": "Winston",
+        "class": "Tank",
+        "origin": "The Moon",
+        "bio": "A highly intelligent, genetically engineered gorilla, Winston is a brilliant scientist and a beacon of hope for humanity. After the fall of Overwatch, Winston was the one who called all of the old members of Overwatch back together to be defenders of hope and peace once again."
+
+        },
+        {
+        "image": "character-images/zarya.jpg",
+        "realname": "Aleksandra Zaryanova",
+        "codename": "Zarya",
+        "class": "Tank",
+        "origin": "Russia",
+        "bio": "One of the world's strongest women, Zarya is a celebrated athlete who sacrificed personal glory to protect her family, friends, and country in a time of war."
+
+        },
+        {
+        "image": "character-images/ana.jpg",
+        "realname": "Ana Amari",
+        "codename": "Ana",
+        "class": "Support",
+        "origin": "Egypt",
+        "bio": "One of the founding members of Overwatch and presumed dead, Ana has mysteriously come back, and now uses her skills and expertise to defend her home and the people she cares about."
+
+        },
+        {
+        "image": "character-images/lucio.jpg",
+        "realname": "Lucio Correia dos Santos",
+        "codename": "Lucio",
+        "class": "Support",
+        "origin": "Brazil",
+        "bio": "Lucio is an internationally renowned DJ who inspires change through his music and actions."
+
+        },
+        {
+        "image": "character-images/mercy.jpg",
+        "realname": "Angela Ziegler",
+        "codename": "Mercy",
+        "class": "Support",
+        "origin": "Switzerland",
+        "bio": "Dr. Angela Ziegler is a guardian angel to those who come under her care. She is a peerless healer, a brilliant scientist, and a staunch advocate for peace."
+
+        },
+        {
+        "image": "character-images/symmetra.jpg",
+        "realname": "Satya Vaswani",
+        "codename": "Symmetra",
+        "class": "Support",
+        "origin": "India",
+        "bio": "Symmetra can literaly bend reality by manipulating hard-light constructs. In doing this, she crafts the world as she wants it to be, hoping to one day engineer a perfect society."
+
+        },
+        {
+        "image": "character-images/zen.jpg",
+        "realname": "Tekhartha Zenyatta",
+        "codename": "Zenyatta",
+        "class": "Support",
+        "origin": "Nepal",
+        "bio": "An omnic monk, Zenyatta travels the world searching for spiritual enlightenment. It's said that those who cross his path are never the same again."
+
+        }
+    ]
+}

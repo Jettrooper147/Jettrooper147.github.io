@@ -1,3 +1,14 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Verdana;
+}
+p {
+    font-family: Helvetica;
+}
 nav {
     background-color: #FF8C00;
     border-top: 1px solid grey;
@@ -45,7 +56,9 @@ footer {
     background-color: #FF8C00;
 }
 
-@media screen and (min-width: 550px){
-    header section{
-        font-size: 1.4em
+@media screen and (min-width: 800px){
+    .website {
+        margin: auto;
     }
+}
+
