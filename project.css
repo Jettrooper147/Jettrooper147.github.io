@@ -56,9 +56,47 @@ footer {
     background-color: #FF8C00;
 }
 
-@media screen and (min-width: 800px){
-    .website {
+@media screen and (min-width: 36em) {
+    body {
+        width: 80%;
+        max-width: 800px;
         margin: auto;
+    }
+    nav {
+        position: static;
+        font-size: 1.25em;
+    }
+    .nav-bar-link{
+        padding: 0% 2%
+    }
+    main {
+        flex-flow: row wrap;
+
+    }
+
+    footer{
+        font-size: 1.25em
+    }
+
+}
+@media (min-width: 36em) and (max-width: 46em){
+
+    }
+    nav{
+        font-size: 1.15em;
+    }
+
+}
+@media (max-width: 56.5em) and (min-width: 46em){
+
+    nav{
+        font-size: 1.15em;
+    }
+}
+@media (max-width: 41em) and (min-width: 36em){
+
+    nav{
+        font-size: 1.0em;
     }
 }
 
